@@ -31,6 +31,7 @@ ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
 
 # Checks for programs ---
 AC_DISABLE_STATIC
+AM_PROG_AR
 AC_PROG_LIBTOOL dnl required version (1.4) DON'T REMOVE - used by autogen.sh
 dnl when using libtool 2.x create libtool early, because it's used in configure
 m4_ifdef([LT_OUTPUT], [LT_OUTPUT])
